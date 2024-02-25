@@ -18,6 +18,10 @@ public class mycalc {
 	{
 		return a/b;
 	}
+	public void show()
+	{
+		System.out.println("This is the show function");
+	}
 
 	public static void main(String[] args) {
 		mycalc calc = new mycalc();
@@ -25,6 +29,7 @@ public class mycalc {
 		System.out.println("diff is :"+calc.diff(10,20));
 		System.out.println("Product is:"+calc.prod(10,20));
 		System.out.println("Div is:"+calc.div(10,20));
+		calc.show();
 
 	}
 
