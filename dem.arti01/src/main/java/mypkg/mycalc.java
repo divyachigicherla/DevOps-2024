@@ -14,12 +14,17 @@ public class mycalc {
 	{
 		return a*b;
 	}
+	public int div(int a, int b)
+	{
+		return a/b;
+	}
 
 	public static void main(String[] args) {
 		mycalc calc = new mycalc();
 		System.out.println("sum is :"+calc.sum(10,20));
 		System.out.println("diff is :"+calc.diff(10,20));
 		System.out.println("Product is:"+calc.prod(10,20));
+		System.out.println("Div is:"+calc.div(10,20));
 
 	}
 
